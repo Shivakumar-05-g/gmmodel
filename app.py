@@ -24,7 +24,7 @@ st.title("🛍️ Mall Customer Segmentation using Gaussian Mixture Model")
 # ==================================
 @st.cache_data
 def load_data():
-    return pd.read_csv("Mall_Customers.csv")
+    return pd.read_csv("data/Mall_Customers.csv")
 
 df = load_data()
 
